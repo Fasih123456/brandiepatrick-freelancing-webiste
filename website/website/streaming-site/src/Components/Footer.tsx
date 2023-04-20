@@ -1,5 +1,8 @@
 import React from "react";
 
+import Image2 from "../assets/img/post-sq-1.jpg";
+import Image1 from "../assets/img/post-sq-1.jpg";
+
 function Footer() {
   return (
     <React.Fragment>
@@ -107,7 +110,7 @@ function Footer() {
                 <ul className="footer-links footer-blog-entry list-unstyled">
                   <li>
                     <a href="single-post.html" className="d-flex align-items-center">
-                      <img src="assets/img/post-sq-1.jpg" alt="" className="img-fluid me-3" />
+                      <img src={Image1} alt="" className="img-fluid me-3" />
                       <div>
                         <div className="post-meta d-block">
                           <span className="date">Culture</span>{" "}
@@ -120,7 +123,7 @@ function Footer() {
 
                   <li>
                     <a href="single-post.html" className="d-flex align-items-center">
-                      <img src="assets/img/post-sq-2.jpg" alt="" className="img-fluid me-3" />
+                      <img src={Image2} alt="" className="img-fluid me-3" />
                       <div>
                         <div className="post-meta d-block">
                           <span className="date">Culture</span>{" "}
@@ -135,7 +138,7 @@ function Footer() {
 
                   <li>
                     <a href="single-post.html" className="d-flex align-items-center">
-                      <img src="assets/img/post-sq-3.jpg" alt="" className="img-fluid me-3" />
+                      <img src={Image2} alt="" className="img-fluid me-3" />
                       <div>
                         <div className="post-meta d-block">
                           <span className="date">Culture</span>{" "}
@@ -148,7 +151,7 @@ function Footer() {
 
                   <li>
                     <a href="single-post.html" className="d-flex align-items-center">
-                      <img src="assets/img/post-sq-4.jpg" alt="" className="img-fluid me-3" />
+                      <img src={Image2} alt="" className="img-fluid me-3" />
                       <div>
                         <div className="post-meta d-block">
                           <span className="date">Culture</span>{" "}
